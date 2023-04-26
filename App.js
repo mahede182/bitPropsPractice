@@ -1,10 +1,30 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import StyledPropsPrac from './component/StyledPropsPrac';
+import DimensionPropPrac from './component/DimensionPropsPrac';
+import LayoutPropsExample from './component/LayoutProps';
+import TouchableProps from './component/TouchableProps';
+import ViewProps from './component/ViewProps';
+import ViewPropsOnLayout from './component/ViewPropsOnLayout';
+import ModalProps from './component/ModalProps';
+import SwitchProps from './component/SwitchProps';
+import StatusBarProps from './component/StatusBarProps';
+
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      {/* <StyledPropsPrac /> */}
+      {/* <DimensionPropPrac /> */}
+      {/* <LayoutPropsExample /> */}
+      {/* <TouchableProps /> */}
+      {/* <ViewProps /> */}
+      {/* <ViewPropsOnLayout /> */}
+      {/* <ModalProps /> */}
+      {/* <SwitchProps /> */}
+      <StatusBarProps />
+      <Text>Hello world</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -12,9 +32,6 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+   flex: 1,
   },
 });

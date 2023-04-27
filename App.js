@@ -11,6 +11,7 @@ import SwitchProps from './component/SwitchProps';
 import StatusBarProps from './component/StatusBarProps';
 import PressableComponentPrac from './component/PressableProps';
 import TextInputProps from './component/TextInputProps';
+import SectionListProps from './component/SectionListProps';
 
 
 export default function App() {
@@ -26,7 +27,8 @@ export default function App() {
       {/* <SwitchProps /> */}
       {/* <StatusBarProps /> */}
       {/* <PressableComponentPrac /> */}
-      <TextInputProps />
+      {/* <TextInputProps /> */}
+      <SectionListProps />
       <Text>Hello world</Text>
       <StatusBar style="auto" />
     </View>

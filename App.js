@@ -9,7 +9,8 @@ import ViewPropsOnLayout from './component/ViewPropsOnLayout';
 import ModalProps from './component/ModalProps';
 import SwitchProps from './component/SwitchProps';
 import StatusBarProps from './component/StatusBarProps';
-
+import PressableComponentPrac from './component/PressableProps';
+import TextInputProps from './component/TextInputProps';
 
 
 export default function App() {
@@ -23,7 +24,9 @@ export default function App() {
       {/* <ViewPropsOnLayout /> */}
       {/* <ModalProps /> */}
       {/* <SwitchProps /> */}
-      <StatusBarProps />
+      {/* <StatusBarProps /> */}
+      {/* <PressableComponentPrac /> */}
+      <TextInputProps />
       <Text>Hello world</Text>
       <StatusBar style="auto" />
     </View>
